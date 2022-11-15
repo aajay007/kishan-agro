@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  
+  width: 100%;
+  overflow: hidden;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.banner1,
+.banner2,
+.banner3 {
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+
+img {
+  width: 110%;
+  animation: zoom-out 12s linear infinite;
+}
+
+.text-box {
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  left: 5%;
+  color: white;
+  animation: textUp 12s linear infinite;
+}
+.text-box h1 {
+  font-size: 6rem;
+}
+
+@keyframes textUp {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(50px);
+  }
+  100% {
+    transform: translateY(100px);
+  }
+}
+.text-box span {
+  width: 100px;
+  height: 1px;
+  background-color: orange;
+  position: absolute;
+  left: 0;
+}
+
+.slide1 {
+  animation: fade1 12s linear infinite;
+}
+
+.slide2 {
+  animation: fade2 12s linear infinite;
+}
+
+.slide3 {
+  animation: fade3 12s linear infinite;
+}
+
+@keyframes fade1 {
+  0% {
+    visibility: visible;
+  }
+  25% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  75% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+@keyframes fade2 {
+  0% {
+    visibility: hidden;
+  }
+  25% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: visible;
+  }
+  75% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+@keyframes fade3 {
+  0% {
+    visibility: hidden;
+  }
+  25% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  75% {
+    visibility: visible;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+@keyframes zoom-out {
+  100% {
+    width: 100%;
+  }
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 230px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+.content{
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    font-size: 20px;
+}
+
+.content-image{
+    position: relative;
+    height: 650px;
+}
+
