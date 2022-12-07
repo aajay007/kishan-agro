@@ -29,7 +29,6 @@ a {
 .ct-footer {
   background-color: #111;
   padding-top: 70px;
-  margin-top: 20px;
   position: relative;
 }
 .ct-footer-pre {
@@ -426,4 +425,14 @@ address a:hover {
   .ct-section_header--type4 + p {
     font-size: 28px;
   }
+}
+
+@media only screen and (max-width: 768px) {
+.playstore{
+  width: 190px;
+    height: 55px;
+}
+.playstorediv{
+  float: left;
+}
 }

@@ -9,6 +9,7 @@ import { DashboardComponent } from './Components/dashboard/dashboard.component';
 import { HomeComponent } from './Components/home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './Components/about/about.component';
+import { ComingSoonComponent } from './Components/coming-soon/coming-soon.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +18,8 @@ import { AboutComponent } from './Components/about/about.component';
     DashboardComponent,
     HomeComponent,
     ContactComponent,
-    AboutComponent
+    AboutComponent,
+    ComingSoonComponent
   ],
   imports: [
     BrowserModule,
